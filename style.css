@@ -79,3 +79,25 @@ header {
 .banner-content {
     max-width: 580px;
 }
+
+/* ! main style */
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* About style */
+.about {
+    padding: 130px 156px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-description {
+    font-weight: bold;
+}
+
