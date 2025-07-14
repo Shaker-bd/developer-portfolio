@@ -121,3 +121,28 @@ main {
     border-radius: 5px;
 }
 
+/* Resumi Section */
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.experience-title {
+    color: #474747;
+}
+.experience-subtitle {
+    color: #757575;
+}
+.experience-description {
+    color: #757575;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resume-title {
+    margin-bottom: 110px;
+}
