@@ -146,3 +146,25 @@ main {
 .resume-title {
     margin-bottom: 110px;
 }
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 50px;
+}
+.footer-column {
+    width: 50%;
+}
+
+footer input[type='text'], input[type='email'], input[type='textarea']{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
