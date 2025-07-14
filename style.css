@@ -1,0 +1,81 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.main section {
+    padding-top: 130px;
+}
+header {
+    font-weight:bold;
+}
+.header {
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
+   
+}
+.nameMary {
+    font-weight: 800px;
+    font-size: 45px;
+}
+/* common style */
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.dark-2 {
+    color: #474747;
+}
+.dark-3 {
+    color: rgba(255, 255, 255, 1);
+}
+.text-center {
+    text-align: center;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.navContainer ul {
+    display: flex;
+  
+}
+.navContainer ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+.navContainer ul li a {
+   text-decoration: none;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+.banner-profile-picture {
+    width: 580px;
+  
+}
+.banner-content {
+    max-width: 580px;
+}
