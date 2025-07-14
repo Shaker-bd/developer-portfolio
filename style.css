@@ -46,7 +46,7 @@ header {
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
-    color: white;
+    
 }
 
 .navContainer {
@@ -54,6 +54,17 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+}
+.navUl {
+    justify-content: center;
+    align-items: center;
+}
+.navContainer button {
+    color: white;
+}
+.navContainer button:hover {
+     background-color: #9b4141;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .navContainer ul {
     display: flex;
@@ -79,6 +90,14 @@ header {
 .banner-content {
     max-width: 580px;
 }
+.banner-content button {
+    color: white;
+    cursor: pointer;
+}
+.banner-content button:hover {
+   background-color: #9b4141;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 /* ! main style */
 main {
@@ -96,6 +115,9 @@ main {
 .about-items {
     display: flex;
     justify-content: space-around;
+}
+.about-item a {
+    text-decoration: none;
 }
 .item-description {
     font-weight: bold;
@@ -138,9 +160,23 @@ main {
     color: #757575;
 }
 
-.btn-container {
+footer .btn-container {
     text-align: center;
     margin-top: 30px;
+    display: block; 
+   
+}
+.btn-container button {
+   cursor: pointer;
+   color: white;
+}
+.btn-container button:hover {
+   background-color: #9b4141;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn-container a {
+    text-decoration: none;
+    
 }
 
 .resume-title {
@@ -167,4 +203,12 @@ footer input[type='text'], input[type='email'], input[type='textarea']{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+footer .btn-primary {
+    color: white;
+    cursor: pointer;
+}
+footer button:hover {
+   background-color: #9b4141;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
